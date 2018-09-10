@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://testdb.cah2bf8lrzji.eu-central-1.rds.amazonaws.com:3306/TEST
+    username: testadmin
+    password: testadmin
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
